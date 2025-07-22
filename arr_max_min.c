@@ -14,6 +14,7 @@ int main(){
     //min_max_arr(arr,size);
     second_largest(arr,size);
     free(arr);
+    return 0;
 
 }
 

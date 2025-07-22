@@ -12,6 +12,7 @@ int main(){
     scanf("%d",&size);
     arr=read_arr(size);
     arr_num_count(arr,size);
+    free(arr);
     return 0;
 }
 

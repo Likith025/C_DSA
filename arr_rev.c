@@ -13,7 +13,7 @@ int main(){
     arr_rev(arr,size);
     print_arr(arr,size);
     free(arr);
-
+    return 0;
 }
 
 void arr_rev(int* arr,int size){

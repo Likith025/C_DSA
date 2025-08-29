@@ -12,9 +12,8 @@ int main(){
     printf("enter the size of 1st array\n");
     scanf("%d",&size_1);
     arr_1=read_arr(size_1);
+
     printf("enter the size of 2nd array\n");
-
-
     scanf("%d",&size_2);
     arr_2=read_arr(size_2);
     mearge_arr(arr_1,arr_2,size_1,size_2);
